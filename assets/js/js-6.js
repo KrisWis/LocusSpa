@@ -1,0 +1,41 @@
+$(document).ready(function(){
+	$('#owl_1').owlCarousel({
+		loop:true,
+		autoplay:false,
+		margin:0,
+		items:1,
+		dots:true,
+		nav:false,
+		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		responsive:{
+			0:{
+			},
+			480:{
+			},
+			768:{
+			}
+		}
+	});
+});$(document).ready(function(){
+	$('#owl_4').owlCarousel({
+		loop:true,
+		autoplay:false,
+		margin:0,
+		items:1,
+		nav:true,
+		dots:false,
+		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		responsive:{
+			0:{
+			},
+			480:{
+			},
+			768:{
+			}
+		}
+	});
+});$(document).ready(function(){
+	$('.articles_2 .open').on('click',function(){
+		$(this).closest('.tr').toggleClass('active');
+	});
+});
