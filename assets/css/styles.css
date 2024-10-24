@@ -897,7 +897,7 @@ header .phone span {
   display: block;
   margin-bottom: 5px;
 }
-header .phone a {
+header .phone a:nth-child(1) {
   font-size: 18px;
   line-height: 20px;
   font-weight: 450;
@@ -905,7 +905,7 @@ header .phone a {
   text-decoration: none;
   padding-bottom: 5px;
 }
-header .phone a:hover {
+header .phone a:nth-child(1):hover {
   border-color: #fff;
 }
 footer {

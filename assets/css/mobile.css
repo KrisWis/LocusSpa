@@ -298,7 +298,7 @@ header .phone span {
   display: none;
 }
 
-header .phone a {
+header .phone a:nth-child(1) {
   border: 0;
   width: 30px;
   height: 30px;
